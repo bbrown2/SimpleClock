@@ -102,12 +102,15 @@ export const TimeContent = styled.div`
 	min-width: 250px;
 
 	@media ${device.tablet} {
-		flex-direction: row;
 		height: 350px;
 	}
 
 	@media ${device.laptop} {
 		height: 500px;
+	}
+
+	@media ${device.laptopL} {
+		flex-direction: row;
 	}
 	/*  */
 `;
